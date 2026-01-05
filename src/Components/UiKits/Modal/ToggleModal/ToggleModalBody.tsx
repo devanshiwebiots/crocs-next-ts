@@ -22,13 +22,13 @@ const ToggleModalBody = () => {
                 <div className='modal-toggle-wrapper'>
                     <ul className="modal-img">
                         <li>
-                            <Image width={100} height={100} src={`${ImagePath}/gif/whatapp.gif`} alt="whatsapp" />
+                            <Image width={100} height={100} src={`${ImagePath}/gif/whatapp.gif`} alt="whatsapp" unoptimized/>
                         </li>
                         <li>
-                            <Image width={100} height={100} src={`${ImagePath}/gif/instagram.gif`} alt="instagram" />
+                            <Image width={100} height={100} src={`${ImagePath}/gif/instagram.gif`} alt="instagram" unoptimized/>
                         </li>
                         <li>
-                            <Image width={100} height={100} src={`${ImagePath}/gif/facebook.gif`} alt="facebook" />
+                            <Image width={100} height={100} src={`${ImagePath}/gif/facebook.gif`} alt="facebook" unoptimized/>
                         </li>
                     </ul>
                     <h6>{'Remove your complete account from your phone or tablet to sign out of the Gmail app.'}</h6>

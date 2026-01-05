@@ -19,7 +19,7 @@ const BorderTabContent: React.FC<TabContentProp> = ({ basicTab }) => {
             <div className="header-inbox">
               <div className="header-left-inbox">
                 <div className="inbox-img">
-                  <Image width={50} height={50} src={`${ImagePath}/ecommerce/06.jpg`} alt="profile" />
+                  <Image width={50} height={50} src={`${ImagePath}/ecommerce/06.jpg`} alt="profile" unoptimized/>
                 </div>
                 <div className="inbox-content">
                   <h6>{DalbultCaslin}</h6>

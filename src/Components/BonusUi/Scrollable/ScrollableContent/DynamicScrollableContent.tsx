@@ -9,7 +9,7 @@ export const DynamicScrollableContent = () => {
       {scrollableContentDataList.map(({ text, mail, days, src }, index) => (
         <ListGroupItem tag="a" className="list-group-item-action list-hover-primary" href={Href} key={index}>
           <div className="list-wrapper gap-0">
-            <Image priority width={55} height={55} className="list-img" src={`${ImagePath}/${src}`} alt="profile" />
+            <Image priority width={55} height={55} className="list-img" src={`${ImagePath}/${src}`} alt="profile" unoptimized/>
             <div className="list-content">
               <h6>{text}</h6>
               <p>{mail}</p>

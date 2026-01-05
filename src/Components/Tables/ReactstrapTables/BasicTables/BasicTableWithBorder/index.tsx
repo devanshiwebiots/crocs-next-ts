@@ -16,7 +16,7 @@ const BasicTableWithBorder = () => {
                         {basicTableBody.map((data) => (
                             <tr className={`border-bottom-${data.color}`} key={data.id}>
                                 <th scope="row">{data.id}</th>
-                                <td> <Image className="img-30 me-2" src={`${ImagePath}/user/${data.image}`} width={30} height={30} alt="users" />{data.firstname}</td>
+                                <td> <Image className="img-30 me-2" src={`${ImagePath}/user/${data.image}`} width={30} height={30} alt="users" unoptimized/>{data.firstname}</td>
                                 <td>{data.lastName}</td>
                                 <td>{data.userName}</td>
                                 <td>{data.designation}</td>

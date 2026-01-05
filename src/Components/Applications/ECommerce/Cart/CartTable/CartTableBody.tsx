@@ -18,7 +18,7 @@ const CartTableBody = () => {
                     item.quantity && (
                         <tr key={i}>
                             <td>
-                                <Image width={40} height={40} priority className="img-fluid img-40" src={`${ImagePath}/${item.image}`} alt="#" />
+                                <Image width={40} height={40} priority className="img-fluid img-40" src={`${ImagePath}/${item.image}`} alt="#" unoptimized/>
                             </td>
                             <td>
                                 <div className="product-name">

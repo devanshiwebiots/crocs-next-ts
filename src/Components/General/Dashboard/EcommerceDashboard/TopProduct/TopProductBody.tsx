@@ -11,7 +11,7 @@ const TopProductBody = () => {
         <div className="card-product" key={i}>
           <Link href={'/app/ecommerce/product'}>
             <span>
-              <Image src={`${ImagePath}/dashboard-2/product/${data.image}`} width={144} height={222} alt="product" />
+              <Image src={`${ImagePath}/dashboard-2/product/${data.image}`} width={144} height={222} alt="product" unoptimized/>
             </span>
             {data.status && <Badge color={data.color}>{data.status}</Badge>}
             <div className="details-product">

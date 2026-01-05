@@ -11,7 +11,7 @@ const SocialHeader: React.FC<SocialHeaderType> = ({ activeTab, setActiveTab }) =
             <Card className="hovercard text-center">
                 <div className="cardheader socialheader" />
                 <div className="user-image">
-                    <div className="avatar"><Image alt="" src={`${ImagePath}/user/1.jpg`} width={86} height={86} /></div>
+                    <div className="avatar"><Image alt="" src={`${ImagePath}/user/1.jpg`} width={86} height={86} unoptimized/></div>
                     <div className="icon-wrapper"><i className="icofont icofont-pencil-alt-5" /></div>
                     <ShareIcons />
                 </div>

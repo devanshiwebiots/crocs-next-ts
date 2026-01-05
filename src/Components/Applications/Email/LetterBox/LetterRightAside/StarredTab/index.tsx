@@ -26,7 +26,7 @@ const StarredTab = () => {
                                         </FormGroup>
                                         <SVG className={`important-mail ${data.star ? "active" : ""}`} iconId="fill-star" onClick={() => dispatch(removeFromFavorite(data))} />
                                         <div className="rounded-border">
-                                            {data.image && <Image src={`${ImagePath}/user/${data.image}`} alt="user" width={38} height={38} />}
+                                            {data.image && <Image src={`${ImagePath}/user/${data.image}`} alt="user" width={38} height={38} unoptimized/>}
                                             {data.shortName && <div className={data.color === "success" ? "circle-success" : ""}>
                                                 <p className={`txt-${data.color}`}>{data.shortName}</p>
                                             </div>}

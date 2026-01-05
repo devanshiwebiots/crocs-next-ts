@@ -12,7 +12,7 @@ const FaqFeaturesTutorials = () => {
         <Col xl={3} md={6} className="box-col-3" key={id}>
           <Card className="features-faq product-box">
             <div className="faq-image product-img">
-              <Image priority width={600} height={400} alt="feature" className="img-fluid media" src={`${ImagePath}/${item.img}`} />
+              <Image priority width={600} height={400} alt="feature" className="img-fluid media" src={`${ImagePath}/${item.img}`} unoptimized/>
               <FaqProductHover />
             </div>
             <CardBody>

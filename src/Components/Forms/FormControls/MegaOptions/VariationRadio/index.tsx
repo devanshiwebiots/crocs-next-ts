@@ -27,7 +27,7 @@ const VariationRadio = () => {
                                             </div>
                                             {(data.id === 1 || data.id === 3) && (
                                                 <div className="payment-second">
-                                                    {item.image && (<Image className="img-fluid" src={`${ImagePath}/ecommerce/${item.image}`} width={50} height={30} alt="ecommerce" />)}
+                                                    {item.image && (<Image className="img-fluid" src={`${ImagePath}/ecommerce/${item.image}`} width={50} height={30} alt="ecommerce" unoptimized/>)}
                                                     {item.icon && (<SVG className={`mega-icons stroke-${item.iconColor}`} iconId={item.icon} />)}
                                                 </div>
                                             )}

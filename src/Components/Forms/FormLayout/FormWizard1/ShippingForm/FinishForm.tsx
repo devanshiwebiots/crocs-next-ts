@@ -6,7 +6,7 @@ import React from 'react'
 const FinishForm = () => {
     return (
         <div className="order-confirm">
-            <Image src={`${ImagePath}/gif/dashboard-8/successful.gif`} width={140} height={140} alt="paypal" />
+            <Image src={`${ImagePath}/gif/dashboard-8/successful.gif`} width={140} height={140} alt="paypal" unoptimized/>
             <h5>{OrderConfirmed}</h5>
             <p className="mb-0">{"An email with your orders specifics will be sent to you as order confirmation."}</p>
             <p className="text-center f-w-600 mt-2">

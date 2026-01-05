@@ -576,7 +576,7 @@ $landing-color:$primary-color;
         }
         .bg-2 {
           svg {
-            fill: var();
+            fill: var(--theme-default);
           } 
         }
         .bg-3 {

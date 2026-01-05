@@ -10,7 +10,7 @@ const NavLinks = () => {
         navLinkList.map((item, index) => (
           <NavLink key={index} href={item.path} target="_blank">
             <div>
-              <Image width={22} height={22} className="img-fluid" src={`${ImagePath}/customizer/${item.image}`} alt="icons" priority />
+              <Image width={22} height={22} className="img-fluid" src={`${ImagePath}/customizer/${item.image}`} alt="icons" priority unoptimized/>
             </div>
             <span>{item.name}</span>
           </NavLink>

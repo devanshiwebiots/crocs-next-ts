@@ -917,7 +917,7 @@ const ScrollImage = ({ image }: any) => (
         <ul>
             {image.map((data: string, i: number) => (
                 <li className="d-inline-block" key={i}>
-                    <Image src={`${ImagePath}/dashboard-3/user/${data}`} width={24} height={24} alt="user" />
+                    <Image src={`${ImagePath}/dashboard-3/user/${data}`} width={24} height={24} alt="user" unoptimized/>
                 </li>
             ))}
         </ul>

@@ -19,7 +19,7 @@ const SimpleModal = () => {
                 <div className="modal-toggle-wrapper">
                     <h4>{'Up to '}<strong className="txt-danger">{'85% OFF'}</strong>{', Hurry Up Online Shopping'}</h4>
                     <div className="modal-img">
-                        <Image src={`${ImagePath}/gif/online-shopping.gif`} alt="online-shopping" width={200} height={200} />
+                        <Image src={`${ImagePath}/gif/online-shopping.gif`} alt="online-shopping" width={200} height={200} unoptimized/>
                     </div>
                     <p className="text-sm-center">
                         {"Our difficulty in finding regular clothes that was of great quality, comfortable, and didn't impact the environment given way to Creatures of Habit."}

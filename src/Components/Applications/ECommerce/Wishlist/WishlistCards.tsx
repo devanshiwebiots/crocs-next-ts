@@ -25,7 +25,7 @@ const WishlistCards = () => {
                 <Col xl={4} md={6} key={item.id}>
                     <div className="prooduct-details-box">
                         <div className="d-flex gap-3">
-                            <Image width={60} height={60} className="align-self-center img-fluid img-60" src={`${ImagePath}/${item.image}`} alt="#" />
+                            <Image width={60} height={60} className="align-self-center img-fluid img-60" src={`${ImagePath}/${item.image}`} alt="#" unoptimized/>
                             <div className="flex-grow-1 ms-3">
                                 <div className="product-name">
                                     <h6><a href={Href}>{item.name}</a></h6>

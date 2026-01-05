@@ -9,7 +9,7 @@ const MyProfileCard = () => {
     return (
         <CommonCard title={MyProfileTitle}>
             <CardBody className="social-status filter-cards-view">
-                <div className="d-flex"><Image className="img-50 img-fluid m-r-20 rounded-circle" src={`${ImagePath}/user/1.jpg`} width={50} height={50} alt="" />
+                <div className="d-flex"><Image className="img-50 img-fluid m-r-20 rounded-circle" src={`${ImagePath}/user/1.jpg`} width={50} height={50} alt="" unoptimized/>
                     <div className="flex-grow-1">
                         <h3 className="font-primary">{'My Page'}</h3>
                         <span className="d-block"><span><i className="fa fa-comments-o" /><span className="px-2">{'Messages'}<Badge color='light' className="ms-2" pill>{'9'}</Badge></span></span></span>
@@ -28,12 +28,12 @@ const MyProfileCard = () => {
                     <ul>
                         {myProfileImageList.map((list, i) => (
                             <li className="d-inline-block" key={i}>
-                                <Image className="img-40 rounded-circle" width={36} height={36} src={`${ImagePath}/user/${list}`} alt="" />
+                                <Image className="img-40 rounded-circle" width={36} height={36} src={`${ImagePath}/user/${list}`} alt="" unoptimized/>
                             </li>
                         ))}
                     </ul>
                 </div>
-                <Image className="img-fluid mt-5" alt="" width={335} height={223} src={`${ImagePath}/social-app/timeline-3.png`} />
+                <Image className="img-fluid mt-5" alt="" width={335} height={223} src={`${ImagePath}/social-app/timeline-3.png`} unoptimized/>
             </CardBody>
         </CommonCard>
     )

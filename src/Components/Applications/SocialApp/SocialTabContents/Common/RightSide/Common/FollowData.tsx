@@ -13,7 +13,7 @@ const FollowData: React.FC<FollowDataType> = ({ heading }) => {
                 <CardBody className="social-list filter-cards-view">
                     {followCardData.map((data) => (
                         <div className="d-flex" key={data.id}>
-                            <Image className="img-50 img-fluid m-r-20 rounded-circle" alt="" width={50} height={50} src={`${ImagePath}/user/${data.image}`} />
+                            <Image className="img-50 img-fluid m-r-20 rounded-circle" alt="" width={50} height={50} src={`${ImagePath}/user/${data.image}`} unoptimized/>
                             <div className="flex-grow-1">
                                 <span className="d-block">{data.name}</span>
                                 <a href={Href}>{'Add Friend'}</a>

@@ -21,7 +21,7 @@ const CustomModal2 = () => {
                 <div className='crocs-demo-img'>
                     <CommonCrocsModalTitle heading="Modal 2 -" subHeading="Result Modal" text="Example of crocs login form." />
                     <div className="overflow-hidden">
-                        <Image className="img-fluid" width={415} height={268} src={`${ImagePath}/alert/learning.png`} alt="learning" />
+                        <Image className="img-fluid" width={415} height={268} src={`${ImagePath}/alert/learning.png`} alt="learning" unoptimized/>
                         <Button color='primary' className="mx-auto mt-3" onClick={toggle}>{ClickOut}</Button>
                     </div>
                     <CommonModal modalData={data}>

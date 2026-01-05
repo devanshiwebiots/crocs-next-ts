@@ -15,7 +15,7 @@ const CustomModal1 = () => {
                 <div className='crocs-demo-img'>
                     <CommonCrocsModalTitle heading="Modal 1 -" subHeading="Profile Modal" text="Example of crocs dashboard profile card." />
                     <div className="overflow-hidden">
-                        <Image className="img-fluid" width={471} height={257} src={`${ImagePath}/alert/social.png`} alt="social" />
+                        <Image className="img-fluid" width={471} height={257} src={`${ImagePath}/alert/social.png`} alt="social" unoptimized/>
                         <Button color='primary' className="mx-auto mt-3" onClick={toggle}>{ClickOut}</Button>
                     </div>
                     <CustomModal1Body modal={modal} toggle={toggle} />

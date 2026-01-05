@@ -9,7 +9,7 @@ const Attachment = () => {
         <ul className="list-inline justify-content-start">
           {attachmentImage.map((item, index) => (
             <li className="list-inline-item" key={index}>
-              <Image className="img-fluid" src={`${ImagePath}/email/${item}`} width={80} height={80} alt="image" />
+              <Image className="img-fluid" src={`${ImagePath}/email/${item}`} width={80} height={80} alt="image" unoptimized/>
             </li>
           ))}
         </ul>

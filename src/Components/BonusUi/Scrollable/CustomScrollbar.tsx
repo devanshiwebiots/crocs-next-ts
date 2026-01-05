@@ -15,7 +15,7 @@ const CustomScrollbar = () => {
             <h3 className="pb-2">{CustomScrollbars}</h3>
             <p>{`I'm quite interested in learning more about `}<em className="txt-danger">custom scrollbars</em> because they are becoming more and more common.</p>
             <div className="scrollbar-images">
-              <Image priority width={731}  height={485} className="img-fluid" src={`${ImagePath}/banner/1.jpg`} alt="banner" />
+              <Image priority width={731}  height={485} className="img-fluid" src={`${ImagePath}/banner/1.jpg`} alt="banner" unoptimized/>
             </div>
             <p>{`There are various justifications for customizing a scrollbar. For instance, the default scrollbar can cause an app's user interface to look inconsistent across various operating systems. In this case, having a single style is helpful.`}</p>
             <p>{`I never had the opportunity to learn about CSS scrollbar customization, but I have always been interested in doing so. I'll take the chance to learn more about them and share my trip in this essay.`}</p>

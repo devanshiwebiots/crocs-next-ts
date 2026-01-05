@@ -12,7 +12,7 @@ const NotificationsFirstTabContent: React.FC<NotificationsTabContent> = ({ navId
       <TabPane tabId={1}>
         {notificationsFirstTabContent.map((item) => (
           <div className={`d-flex align-items-center ${item.line===true ? 'figma-line':''}`} key={item.id}>
-            <Image src={`${ImagePath}/dashboard/user/${item.image}`} width={42} height={42} alt="product" />
+            <Image src={`${ImagePath}/dashboard/user/${item.image}`} width={42} height={42} alt="product" unoptimized/>
             <div className="flex-grow-1 ms-2">
               <Link href={'/app/users/user_profile'}>
                 <h5>

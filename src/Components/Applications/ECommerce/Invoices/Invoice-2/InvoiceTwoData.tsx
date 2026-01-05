@@ -10,7 +10,7 @@ const InvoiceTwoData = () => {
       <tr className="invoice-dark" style={{ backgroundColor: "rgba(245, 246, 249, 1)", boxShadow: "0px 1px 0px 0px rgba(82, 82, 108, 0.15)" }} key={i}>
         <td style={{ padding: "18px 15px", display: "flex", alignItems: "center", gap: 10 }} >
           <span style={{ width: 54, height: 51, backgroundColor: "#F5F6F9", display: "flex", justifyContent: "center", alignItems: "center", borderRadius: 5 }} >
-            <Image height={50} width={50} src={`${ImagePath}/dashboard-8/product-categories/${data.image}.png`} alt="laptop" style={{ height: 29 }} />
+            <Image height={50} width={50} src={`${ImagePath}/dashboard-8/product-categories/${data.image}.png`} alt="laptop" style={{ height: 29 }} unoptimized/>
           </span>
           <ul className="simple-list" style={{ padding: 0, margin: 0, listStyle: "none" }}>
             <li>

@@ -11,7 +11,7 @@ const NotificationsTwoTabContent: React.FC<NotificationsTabContent> = ({ navId }
       <TabPane tabId={2} >
         {notificationsThreeTabContent.map((data, i) => (
           <div className={`d-flex align-items-center ${i === 2 ? "figma-line" : ""}`} key={i}>
-            <Image src={`${ImagePath}/dashboard/user/${data.image}`} width={42} height={42} alt="product" />
+            <Image src={`${ImagePath}/dashboard/user/${data.image}`} width={42} height={42} alt="product" unoptimized/>
             <div className="flex-grow-1 ms-2">
               <Link href={'/app/users/user_profile'}>
                 <h5>{data.name}</h5>

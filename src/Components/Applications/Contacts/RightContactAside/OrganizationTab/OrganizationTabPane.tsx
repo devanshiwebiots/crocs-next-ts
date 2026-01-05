@@ -14,7 +14,7 @@ const OrganizationTabPane: React.FC<OrganizationTabPaneProps> = ({ user }) => {
   return (
     <div className="profile-mail">
       <div className="d-flex">
-        <Image className="img-100 img-fluid m-r-20 rounded-circle update_img_5" src={`${ImagePath}/${user.image}`} width={100} height={100} alt="" />
+        <Image className="img-100 img-fluid m-r-20 rounded-circle update_img_5" src={`${ImagePath}/${user.image}`} width={100} height={100} alt="" unoptimized/>
         <div className="flex-grow-1 mt-0">
           <h3>
             <span className="first_name_5">{user.name}</span>

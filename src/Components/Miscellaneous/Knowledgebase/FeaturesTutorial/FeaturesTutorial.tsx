@@ -16,7 +16,7 @@ const FeaturesTutorial = () => {
           <Col xl={3} sm={6} className="box-col-3" key={id}>
             <Card className="features-faq product-box">
               <div className="faq-image product-img">
-                <Image priority width={375} height={281} alt="feature" className="img-fluid" src={`${ImagePath}/faq/${item.img}`} />
+                <Image priority width={375} height={281} alt="feature" className="img-fluid" src={`${ImagePath}/faq/${item.img}`} unoptimized/>
                 <ProductHover />
               </div>
               <CardBody>

@@ -18,7 +18,7 @@ const TopRightToast = () => {
       <div className="toast-container position-fixed top-0 end-0 p-3 toast-index toast-rtl">
         <Toast isOpen={open}>
           <div className="toast-header toast-img">
-            <Image priority width={30} height={30} className="rounded me-2" src={`${ImagePath}/dashboard-8/profile.png`} alt="profile" />
+            <Image priority width={30} height={30} className="rounded me-2" src={`${ImagePath}/dashboard-8/profile.png`} alt="profile" unoptimized/>
             <strong className="me-auto">Crocs theme</strong>
             <small>5 min ago</small>
             <Button  close onClick={() => setOpen(false)}></Button>

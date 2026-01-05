@@ -17,7 +17,7 @@ const SubscriptionPlan = () => {
               </Link>
             </div>
             <div className="flex-shrink-0">
-              <Image src={`${ImagePath}/dashboard-3/upgrade.png`} width={200} height={214} alt="user" />
+              <Image src={`${ImagePath}/dashboard-3/upgrade.png`} width={200} height={214} alt="user" unoptimized/>
             </div>
           </div>
         </CardBody>

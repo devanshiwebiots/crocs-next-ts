@@ -20,7 +20,7 @@ const UpcomingDeadlinesBody: React.FC<RecentOrderBodyProps> = ({ filterText }) =
           <td className="sorting_1">
             <div className="d-flex">
               <div className="flex-shrink-0">
-                <Image src={`${ImagePath}/dashboard-3/user/${data.image}`} width={42} height={42} alt="user" />
+                <Image src={`${ImagePath}/dashboard-3/user/${data.image}`} width={42} height={42} alt="user" unoptimized/>
               </div>
               <div className="flex-grow-1 ms-2">
                 <Link href={'/app/users/user_profile'}>

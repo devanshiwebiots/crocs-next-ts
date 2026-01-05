@@ -38,8 +38,8 @@ const UserForm = () => {
     <div>
       <div>
         <Link className="logo" href="/dashboard/default">
-          <Image priority width={100} height={34} className="img-fluid for-light" src={imageOne} alt="login page" />
-          <Image priority width={100} height={34} className="img-fluid for-dark" src={imageTwo} alt="login page" />
+          <Image priority width={100} height={34} className="img-fluid for-light" src={imageOne} alt="login page" unoptimized/>
+          <Image priority width={100} height={34} className="img-fluid for-dark" src={imageTwo} alt="login page" unoptimized/>
         </Link>
       </div>
       <div className="login-main">

@@ -26,7 +26,7 @@ const ManageOrderTableBody: React.FC<RecentOrderBodyProps> = ({ filterText }) =>
           <td className="sorting_1">
             <div className="d-flex">
               <div className="flex-shrink-0">
-                <Image src={`${ImagePath}/dashboard-2/product/${data.image}`} width={42} height={42} alt="product" />
+                <Image src={`${ImagePath}/dashboard-2/product/${data.image}`} width={42} height={42} alt="product" unoptimized/>
               </div>
               <div className="flex-grow-1 ms-3">
                 <Link href={'/app/ecommerce/product_list'}>

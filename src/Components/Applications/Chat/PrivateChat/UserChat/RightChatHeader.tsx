@@ -11,7 +11,7 @@ const RightChatHeader = () => {
       <div className="common-space">
         <div className="chat-time">
           <div className="active-profile">
-            <Image className="img-fluid rounded-circle" src={`${ImagePath}/${selectedUser?.image ? `${selectedUser?.image}` : "blog/comment.jpg"}`} width={42} height={42} alt="user"/>
+            <Image className="img-fluid rounded-circle" src={`${ImagePath}/${selectedUser?.image ? `${selectedUser?.image}` : "blog/comment.jpg"}`} width={42} height={42} alt="user" unoptimized/>
             <div className="status bg-success" />
           </div>
           <div>

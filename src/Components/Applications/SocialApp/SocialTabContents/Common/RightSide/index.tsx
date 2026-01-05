@@ -19,7 +19,7 @@ const RightSide = () => {
                     <FriendsCard />
                     <Col xl={12} md={6} sm={12} className='xl-50 box-col-6'>
                         <Card>
-                            <Image className="img-fluid" width={470} height={250} src={`${ImagePath}/social-app/timeline-4.png`} alt="" />
+                            <Image className="img-fluid" width={470} height={250} src={`${ImagePath}/social-app/timeline-4.png`} alt="" unoptimized/>
                         </Card>
                     </Col>
                 </Row>

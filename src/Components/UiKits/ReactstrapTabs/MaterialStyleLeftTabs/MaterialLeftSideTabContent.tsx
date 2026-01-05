@@ -14,7 +14,7 @@ const MaterialLeftSideTabContent: React.FC<TabContentProp> = ({ basicTab }) => {
         <TabPane tabId="2">
           <p className="mb-0"></p>
           <div className="flex-space flex-wrap align-items-center">
-            <Image className="tab-img" width={92} height={100} src={`${ImagePath}/ecommerce/08.jpg`} alt="profile" />
+            <Image className="tab-img" width={92} height={100} src={`${ImagePath}/ecommerce/08.jpg`} alt="profile" unoptimized/>
             <ul className="d-flex flex-column gap-1">
               <li> <strong> Name: </strong> Jully Catlin</li>
               <li><strong>Visit Us: </strong> 50006 Ehrenberg/Parker,Arkansas-85334</li>
@@ -29,7 +29,7 @@ const MaterialLeftSideTabContent: React.FC<TabContentProp> = ({ basicTab }) => {
               <div className="header-inbox justify-content-start gap-2">
                 <div className="header-left-inbox">
                   <div className="inbox-img">
-                    <Image width={50} height={50} src={`${ImagePath}/ecommerce/07.jpg`} alt="profile" />
+                    <Image width={50} height={50} src={`${ImagePath}/ecommerce/07.jpg`} alt="profile" unoptimized/>
                   </div>
                 </div>
                 <div className="inbox-content">

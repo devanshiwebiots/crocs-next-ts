@@ -7,13 +7,13 @@ const ProjectCustomers: React.FC<ProjectCommonType> = ({ item }) => {
         <div className='customers'>
             <ul>
                 <li className='d-inline-block' >
-                    <Image className='img-30 rounded-circle' src={`${ImagePath}/user/${item.customers_image1}`} alt='user' width={26} height={26} />
+                    <Image className='img-30 rounded-circle' src={`${ImagePath}/user/${item.customers_image1}`} alt='user' width={26} height={26} unoptimized/>
                 </li>
                 <li className='d-inline-block' >
-                    <Image className='img-30 rounded-circle' src={`${ImagePath}/user/${item.customers_image2}`} alt='user' width={26} height={26} />
+                    <Image className='img-30 rounded-circle' src={`${ImagePath}/user/${item.customers_image2}`} alt='user' width={26} height={26} unoptimized/>
                 </li>
                 <li className='d-inline-block' >
-                    <Image className='img-30 rounded-circle' src={`${ImagePath}/user/${item.customers_image3}`} alt='user' width={26} height={26} />
+                    <Image className='img-30 rounded-circle' src={`${ImagePath}/user/${item.customers_image3}`} alt='user' width={26} height={26} unoptimized/>
                 </li>
                 <li className='d-inline-block ms-2' >
                     <p className='f-12' >{`+${item.like} More`}</p>

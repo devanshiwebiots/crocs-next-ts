@@ -13,7 +13,7 @@ const MyProfile = () => {
                     <Form onSubmit={(e) => e.preventDefault()}>
                         <Row className="mb-2">
                             <div className="profile-title">
-                                <div className="d-flex"><Image className="img-70 rounded-circle" alt="" src={`${ImagePath}/user/7.jpg`} width={70} height={70} />
+                                <div className="d-flex"><Image className="img-70 rounded-circle" alt="" src={`${ImagePath}/user/7.jpg`} width={70} height={70} unoptimized/>
                                     <div className="flex-grow-1">
                                         <h3 className="mb-1">{'MARK JECNO'}</h3>
                                         <p>{'DESIGNER'}</p>

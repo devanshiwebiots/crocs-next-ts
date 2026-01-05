@@ -16,7 +16,7 @@ const UserFooter = () => {
       <div className="d-inline-block">
         <div className="attchment-file common-flex">
           <div className="common-flex align-items-center">
-            <Image src={`${ImagePath}/email-template/pdfs.png`} width={30} height={36} alt="pdf" />
+            <Image src={`${ImagePath}/email-template/pdfs.png`} width={30} height={36} alt="pdf" unoptimized/>
             <div className="d-block">
               <p>{"Offer_Letter.pdf"}</p>
               <p>{"200KB"}</p>

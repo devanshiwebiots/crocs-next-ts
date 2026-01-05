@@ -15,7 +15,7 @@ const SecondModal: React.FC<SecondModalProps> = ({ modal2, toggle2 }) => {
                     <p>{"Scan the QR code using an authenticator app and website such as abc authenticator, OTP xyz, or pqr authenticator. You must input the six-digit code it generates below."}</p>
                     <div className="modal-img">
                         <div className="qr-img">
-                            <Image src={`${ImagePath}/forms/qr-code.png`} width={100} height={100} alt="qr-code" />
+                            <Image src={`${ImagePath}/forms/qr-code.png`} width={100} height={100} alt="qr-code" unoptimized/>
                         </div>
                         <div className="qr-content">
                             <Alert color='light-dark' isOpen={active} toggle={() => setActive(!active)} className='light text-dark border-left-wrapper'>

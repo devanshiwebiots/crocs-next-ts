@@ -15,7 +15,7 @@ export const InterviewHoveringTimeline = () => {
             <ListGroupItem tag="a" href={Href} className="list-group-item-action border-0 p-0 mb-4">
               <div className="d-flex w-100 justify-content-between align-items-center">
                 <div className="list-wrapper">
-                  <Image priority width={55} height={55} className="list-img" src={`${ImagePath}/user/1.jpg`} alt="profile" />
+                  <Image priority width={55} height={55} className="list-img" src={`${ImagePath}/user/1.jpg`} alt="profile" unoptimized/>
                   <div className="list-content">
                     <h6>{'Molly Boake'}</h6>
                     <p>MollyBoake@rhyta.com</p>

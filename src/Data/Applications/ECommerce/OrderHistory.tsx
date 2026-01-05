@@ -168,7 +168,7 @@ export const orderHistoryData = [
 ];
 
 const OrderHistoryImage: React.FC<OrderHistoryImageType> = ({ name }) => {
-    return <Image priority width={30} height={30} className="img-fluid img-30 my-3 rounded-3" src={`${ImagePath}/product/${name}`} alt="#" />;
+    return <Image priority width={30} height={30} className="img-fluid img-30 my-3 rounded-3" src={`${ImagePath}/product/${name}`} alt="#" unoptimized/>;
 };
 
 const OrderDataHistory: React.FC<OrderHistoryImageType> = ({ name, tag }) => {

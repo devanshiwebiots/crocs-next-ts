@@ -20,7 +20,7 @@ const ImagesWithRadio = () => {
                                         <div className="img-checkbox">
                                             <Input className="main-img-cover" id={`img-radio-${data.id}`} type="radio" name="radio6" defaultChecked={data.check ? true : false} disabled={data.disabled ? true : false} />
                                             <Label className="mb-0" htmlFor={`img-radio-${data.id}`} check>
-                                                <Image src={`${ImagePath}/switch/${data.image}`} alt="images" width={100} height={220} />
+                                                <Image src={`${ImagePath}/switch/${data.image}`} alt="images" width={100} height={220} unoptimized/>
                                             </Label>
                                         </div>
                                     </div>

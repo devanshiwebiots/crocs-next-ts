@@ -15,7 +15,7 @@ const NewUsersSocial = () => {
                     <Card>
                         <CardBody>
                             <NewUsersHeader />
-                            <Image className="img-fluid" alt="" width={737} height={463} src={`${ImagePath}/social-app/timeline-${data.image}`} />
+                            <Image className="img-fluid" alt="" width={737} height={463} src={`${ImagePath}/social-app/timeline-${data.image}`} unoptimized/>
                             <div className="timeline-content">
                                 <p>{data.paragraph}</p>
                                 <LikeContent />
@@ -23,7 +23,7 @@ const NewUsersSocial = () => {
                                     {data.child.map((item) => (
                                         <div className={item.divClass} key={item.id}>
                                             <div className="d-flex">
-                                                <Image className="img-50 img-fluid m-r-20 rounded-circle" alt="" width={50} height={50} src={`${ImagePath}/user/${item.src}`} />
+                                                <Image className="img-50 img-fluid m-r-20 rounded-circle" alt="" width={50} height={50} src={`${ImagePath}/user/${item.src}`} unoptimized/>
                                                 <div className="flex-grow-1">
                                                     <span>{item.name} <span>{item.time} <i className="fa fa-reply font-primary" /></span></span>
                                                     <p>{item.paragraph}</p>

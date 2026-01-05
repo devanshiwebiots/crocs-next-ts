@@ -13,7 +13,7 @@ const IconTabContent: React.FC<TabContentProp> = ({ basicTab }) => {
       <TabPane tabId="2">
         <div className="pt-3 mb-0">
           <div className="flex-space flex-wrap align-items-center">
-            <Image className="tab-img" width={100} height={100} src={`${ImagePath}/avtar/7.jpg`} alt="profile" />
+            <Image className="tab-img" width={100} height={100} src={`${ImagePath}/avtar/7.jpg`} alt="profile" unoptimized/>
             <ul className="d-flex flex-column gap-1">
               <li><strong>Visit Us:  </strong> 278 Green Avenue Oakland, CA 94612</li>
               <li><strong>Mail Us:</strong> MichaelMMcGowan@teleworm.us</li>

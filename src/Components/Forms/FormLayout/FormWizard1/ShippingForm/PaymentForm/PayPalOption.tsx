@@ -16,7 +16,7 @@ const PayPalOption: React.FC<PaymentFormProps> = ({ payMethod, updateFormData })
                     <p>{"You will be taken to the paypal website to finish your transaction safely"}</p>
                 </div>
                 <div>
-                    <Image src={`${ImagePath}/checkout/paypal.png`} width={145} height={50} alt="paypal" />
+                    <Image src={`${ImagePath}/checkout/paypal.png`} width={145} height={50} alt="paypal" unoptimized/>
                 </div>
             </div>
         </Col>

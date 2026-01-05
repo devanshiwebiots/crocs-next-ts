@@ -9,7 +9,7 @@ const NavCustomizer: React.FC<NavCustomizerType> = ({ callbackNav, selected }) =
     <Nav className="flex-column nac-pills">
       <NavLink className={`${selected === "sidebar-type" ? "active" : ""} mb-2`} onClick={() => callbackNav("sidebar-type", true)} href={Href}>
         <div className="settings">
-          <Image width={22} height={22} className="img-fluid" src={`${ImagePath}/customizer/1.png`} alt="icons" priority />
+          <Image width={22} height={22} className="img-fluid" src={`${ImagePath}/customizer/1.png`} alt="icons" priority unoptimized/>
         </div>
         <span>{QuickOption}</span>
       </NavLink>

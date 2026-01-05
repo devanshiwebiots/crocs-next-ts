@@ -12,7 +12,7 @@ const NavOrganization: React.FC<NavOrganizationProps> = ({ orgActiveTab, setOrgA
                 {organizationList.map((item) => (
                     <NavLink key={item.id} href={Href} className={orgActiveTab === item.id ? 'active' : ''} onClick={() => { setOrgActiveTab(item.id); }}>
                         <div className="d-flex">
-                            <Image className='img-50 img-fluid m-r-20 rounded-circle' src={`${ImagePath}/${item.image}`} width={50} height={50} alt='' />
+                            <Image className='img-50 img-fluid m-r-20 rounded-circle' src={`${ImagePath}/${item.image}`} width={50} height={50} alt='' unoptimized/>
                             <div className="flex-grow-1">
                                 <h3>{item.name}</h3>
                                 <p>{item.email}</p>

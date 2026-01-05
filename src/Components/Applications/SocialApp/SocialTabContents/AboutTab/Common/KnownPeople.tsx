@@ -17,7 +17,7 @@ const KnownPeople: React.FC<FollowDataType> =({ heading })=> {
                             {knownPeopleData.map((data) => (
                                 <li key={data.id}>
                                     <div className="add-friend text-center">
-                                        <Image className="img-60 img-fluid rounded-circle" alt="" width={60} height={60} src={`${ImagePath}/user/${data.src}`} />
+                                        <Image className="img-60 img-fluid rounded-circle" alt="" width={60} height={60} src={`${ImagePath}/user/${data.src}`} unoptimized/>
                                         <span className="d-block">{data.name}</span>
                                         <Button color='primary' size='xs'>{'Add Friend'}</Button>
                                     </div>

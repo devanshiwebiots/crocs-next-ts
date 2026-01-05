@@ -8,7 +8,7 @@ const ProfileHead = () => {
         <Row>
             <Col sm={8}>
                 <div className="d-flex">
-                    <Image className="img-thumbnail rounded-circle me-3" width={40} height={40} src={`${ImagePath}/user/7.jpg`} alt="Generic placeholder image" />
+                    <Image className="img-thumbnail rounded-circle me-3" width={40} height={40} src={`${ImagePath}/user/7.jpg`} alt="Generic placeholder image" unoptimized/>
                     <div className="flex-grow-1 align-self-center">
                         <h5 className="mt-0 user-name">{'JOHAN DIO'}</h5>
                     </div>

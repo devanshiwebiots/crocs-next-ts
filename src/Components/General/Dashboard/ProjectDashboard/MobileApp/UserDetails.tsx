@@ -9,7 +9,7 @@ const UserDetails: React.FC<ClientBudgetPropsType> = ({ data }) => {
       <ul>
         {data.userDetail.map((item, i) => (
           <li className="d-inline-block" key={i}>
-            <Image src={`${ImagePath}/dashboard-3/user/${item}`} width={30} height={30} alt="user" />
+            <Image src={`${ImagePath}/dashboard-3/user/${item}`} width={30} height={30} alt="user" unoptimized/>
           </li>
         ))}
       </ul>

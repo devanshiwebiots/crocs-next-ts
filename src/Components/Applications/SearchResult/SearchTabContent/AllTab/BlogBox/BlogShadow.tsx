@@ -7,7 +7,7 @@ const BlogShadow = () => {
     return (
         <Card className="o-hidden">
             <div className="blog-box blog-shadow">
-                <Image className="img-fluid" src={`${ImagePath}/blog/blog.jpg`} width={830} height={310} alt="" />
+                <Image className="img-fluid" src={`${ImagePath}/blog/blog.jpg`} width={830} height={310} alt="" unoptimized/>
                 <div className="blog-details">
                     <p>{'25 July 2024'}</p>
                     <h4>{'Accusamus et iusto odio dignissimos ducimus qui blanditiis.'}</h4>

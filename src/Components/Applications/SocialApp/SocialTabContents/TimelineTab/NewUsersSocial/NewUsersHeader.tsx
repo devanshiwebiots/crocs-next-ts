@@ -7,7 +7,7 @@ const NewUsersHeader = () => {
     return (
         <div className="new-users-social">
             <div className="d-flex">
-                <Image className="rounded-circle image-radius m-r-15" src={`${ImagePath}/user/1.jpg`} width={58} height={58} alt="" />
+                <Image className="rounded-circle image-radius m-r-15" src={`${ImagePath}/user/1.jpg`} width={58} height={58} alt="" unoptimized/>
                 <div className="flex-grow-1">
                     <h3 className="mb-0 f-w-700">{'ELANA'}</h3>
                     <p>{'January, 12,2024'}</p>

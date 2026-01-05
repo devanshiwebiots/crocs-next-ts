@@ -6,7 +6,7 @@ const ProfileHeader = () => {
     return (
         <div className="d-flex align-items-center">
             <div className="media-size-email">
-                <Image className="me-3 rounded-circle" src={`${ImagePath}/user/user.png`} width={48} height={48} alt="" />
+                <Image className="me-3 rounded-circle" src={`${ImagePath}/user/user.png`} width={48} height={48} alt="" unoptimized/>
             </div>
             <div className="flex-grow-1">
                 <h3>{'Mark Jecno'}</h3>

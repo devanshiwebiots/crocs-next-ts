@@ -5,7 +5,7 @@ import React from 'react'
 const CompletedForm = () => {
     return (
         <div className="form-completed">
-            <Image src={`${ImagePath}/gif/dashboard-8/successful.gif`} width={100} height={100} alt="successful" />
+            <Image src={`${ImagePath}/gif/dashboard-8/successful.gif`} width={100} height={100} alt="successful" unoptimized/>
             <h6>{SuccessfullyCompleted}</h6>
         </div>
     )

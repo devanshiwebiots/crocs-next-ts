@@ -18,7 +18,7 @@ const WelcomeCard = () => {
               <Link className="btn" href={`/app/ecommerce/product_list`}>{'Go Premium'}</Link>
             </div>
             <div className="flex-shrink-0">
-              <Image src={`${ImagePath}/dashboard/welcome.png`} alt="welcomeCard" width={341} height={290} />
+              <Image src={`${ImagePath}/dashboard/welcome.png`} alt="welcomeCard" width={341} height={290} unoptimized/>
             </div>
             <ClockBox />
           </div>

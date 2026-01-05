@@ -10,7 +10,7 @@ export const ChildUserComment = () => {
       <ul>
         <li>
           <div className="d-flex">
-            <Image priority width={74} height={74} className="align-self-center" src={`${ImagePath}/blog/9.jpg`} alt="Generic placeholder image" />
+            <Image priority width={74} height={74} className="align-self-center" src={`${ImagePath}/blog/9.jpg`} alt="Generic placeholder image" unoptimized/>
             <div className="flex-grow-1">
               <Row>
                 <Col xl={12}>

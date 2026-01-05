@@ -19,7 +19,7 @@ const EmailContent: React.FC<EmailContentProp> = ({ activeTab }) => {
                       <Row>
                         <Col md={6} sm={12} className="xl-100">
                           <div className="d-flex">
-                            <Image className="me-3 rounded-circle" src={`${ImagePath}/user/user.png`} width={48} height={48} alt="user" />
+                            <Image className="me-3 rounded-circle" src={`${ImagePath}/user/user.png`} width={48} height={48} alt="user" unoptimized/>
                             <div className="flex-grow-1">
                               <h3 className="p-0">
                                 {item.tittle}

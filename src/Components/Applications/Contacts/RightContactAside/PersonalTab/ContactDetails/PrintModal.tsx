@@ -26,7 +26,7 @@ const PrintModal: React.FC<PrintModalProps> = ({ printModal, selectedUser, toggl
       <ModalBody className="list-persons">
         <div className="profile-mail pt-0" ref={contentRef}>
           <div className="d-flex align-items-center">
-            <Image className="img-100 img-fluid m-r-20 rounded-circle" src={`${ImagePath}/user/2.png`} width={50} height={50} alt="" />
+            <Image className="img-100 img-fluid m-r-20 rounded-circle" src={`${ImagePath}/user/2.png`} width={50} height={50} alt="" unoptimized/>
             <div className="flex-grow-1 mt-0">
               <h3>
                 <span>{selectedUser.name}</span>

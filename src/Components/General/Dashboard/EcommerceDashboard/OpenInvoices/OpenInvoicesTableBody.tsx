@@ -28,7 +28,7 @@ const OpenInvoicesTableBody: React.FC<RecentOrderBodyProps> = ({ filterText }) =
           <td>
             <div className="d-flex">
               <div className="flex-shrink-0">
-                <Image src={`${ImagePath}/dashboard-2/user/${data.image}`} width={40} height={40} alt="" />
+                <Image src={`${ImagePath}/dashboard-2/user/${data.image}`} width={40} height={40} alt="" unoptimized/>
               </div>
               <div className="flex-grow-1 ms-3">
                 <Link href={'/app/ecommerce/product_list'}>

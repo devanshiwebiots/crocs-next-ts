@@ -11,7 +11,7 @@ const TopSellingProductBody = () => {
           <td>
             <div className="d-flex">
               <span className={`bg-light-${data.color}`}>
-                <Image src={`${ImagePath}/dashboard/product/${data.image}`} width={32} height={32} alt="product" />
+                <Image src={`${ImagePath}/dashboard/product/${data.image}`} width={32} height={32} alt="product" unoptimized/>
               </span>
               <div className="flex-grow-1 ms-2">
                 <Link href={'/app/ecommerce/product_list'}>
@@ -26,7 +26,7 @@ const TopSellingProductBody = () => {
             <h5>{data.couponCode}</h5>
           </td>
           <td>
-            <Image src={`${ImagePath}/dashboard/flag/${data.image}`} width={18} height={15} alt="product" />
+            <Image src={`${ImagePath}/dashboard/flag/${data.image}`} width={18} height={15} alt="product" unoptimized/>
           </td>
           <td>
             <span>{data.percentage}%</span>

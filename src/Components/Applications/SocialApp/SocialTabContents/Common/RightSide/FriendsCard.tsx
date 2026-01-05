@@ -12,7 +12,7 @@ const FriendsCard = () => {
                 <CardBody className="avatar-showcase filter-cards-view">
                     {friendsCardList.map((list, i) => (
                         <div className="d-inline-block friend-pic" key={i}>
-                            <Image className="img-50 rounded-circle" width={50} height={50} src={`${ImagePath}/user/${list}`} alt="#" />
+                            <Image className="img-50 rounded-circle" width={50} height={50} src={`${ImagePath}/user/${list}`} alt="#" unoptimized/>
                         </div>
                     ))}
                 </CardBody>

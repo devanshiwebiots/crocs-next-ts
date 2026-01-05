@@ -17,7 +17,7 @@ const MailSidebar = () => {
               <div className="email-app-sidebar">
                 <div className="d-flex align-items-center">
                   <div className="media-size-email">
-                    <Image className="me-3 rounded-circle" src={`${ImagePath}/user/user.png`} width={48} height={48} alt="user" />
+                    <Image className="me-3 rounded-circle" src={`${ImagePath}/user/user.png`} width={48} height={48} alt="user" unoptimized/>
                   </div>
                   <div className="flex-grow-1">
                     <h3>{'MARK JENCO'}</h3>

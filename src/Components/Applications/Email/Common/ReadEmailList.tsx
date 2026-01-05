@@ -9,7 +9,7 @@ const ReadEmailList: React.FC<ReadEmailListProps> = ({ activeCallback, activeTab
       {emailList.map((data, index) => (
         <div key={index} className={`d-flex ${activeTab === index ? "active" : ""}`} onClick={() => { activeCallback(index + 1); }}>
           <div className="media-size-email">
-            <Image className="me-3 rounded-circle" src={`${ImagePath}/user/user.png`} width={48} height={48} alt="image" />
+            <Image className="me-3 rounded-circle" src={`${ImagePath}/user/user.png`} width={48} height={48} alt="image" unoptimized/>
           </div>
           <div className="flex-grow-1">
             <h3>

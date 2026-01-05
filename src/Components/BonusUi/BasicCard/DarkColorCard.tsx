@@ -13,7 +13,7 @@ const DarkColorCard = () => {
         <CommonCardHeader title={DarkColorCards} span={darkColorData} headClass="bg-dark" tagClass="text-white" />
         <CardBody className="bg-dark">
           <div className="d-flex align-items-center gap-3 pills-blogger">
-            <div className="blog-wrapper"><Image priority width={100} height={100} className="blog-img" src={`${ImagePath}/dashboard-2/headphones.png`} alt="head-phone" /></div>
+            <div className="blog-wrapper"><Image priority width={100} height={100} className="blog-img" src={`${ImagePath}/dashboard-2/headphones.png`} alt="head-phone" unoptimized/></div>
             <div className="blog-content">
               <p><em className="txt-danger fw-bold">{'Smart headphones'}</em>{DarkColorText1}</p>
             </div>

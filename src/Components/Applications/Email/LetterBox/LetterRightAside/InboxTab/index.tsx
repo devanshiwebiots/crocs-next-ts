@@ -26,7 +26,7 @@ const InboxTab = () => {
                             </FormGroup>
                             <SVG className={`important-mail ${item.star ? "active" : ""}`} iconId="fill-star" onClick={() => dispatch(addToFavorites(item))} />
                             <div className="rounded-border">
-                                {item.image && <Image src={`${ImagePath}/user/${item.image}`} alt="user" width={38} height={38} />}
+                                {item.image && <Image src={`${ImagePath}/user/${item.image}`} alt="user" width={38} height={38} unoptimized/>}
                                 {item.shortName && <div className={item.color === "success" ? "circle-success" : ""}>
                                     <p className={`txt-${item.color}`}>{item.shortName}</p>
                                 </div>}

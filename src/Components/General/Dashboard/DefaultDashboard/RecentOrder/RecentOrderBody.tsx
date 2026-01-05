@@ -27,7 +27,7 @@ const RecentOrderBody: React.FC<RecentOrderBodyProps> = ({ filterText }) => {
           <td>
             <div className="d-flex">
               <div className="flex-shrink-0">
-                <Image src={`${ImagePath}/dashboard/user/${data.image}`} width={42} height={42} alt="product" />
+                <Image src={`${ImagePath}/dashboard/user/${data.image}`} width={42} height={42} alt="product" unoptimized/>
               </div>
               <div className="flex-grow-1 ms-3">
                 <Link href={'/app/users/user_profile'}>

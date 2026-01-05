@@ -16,14 +16,14 @@ const BothSideVisibleScrollbar = () => {
               <div className="horz-scroll-content" style={{width: "1600px"}}>
                 <Row>
                   <Col sm={3}>
-                    <div className="visible-wrapper"><Image priority width={330} height={330} src={`${ImagePath}/banner/2.jpg`} alt="office-work" /></div>
+                    <div className="visible-wrapper"><Image priority width={330} height={330} src={`${ImagePath}/banner/2.jpg`} alt="office-work" unoptimized/></div>
                     <p className="pt-3">Inspiration can take many different forms, and <em className="txt-danger">professional growth never stops</em>{`. In light of this, we've compiled a comprehensive list of web design blogs that will keep your mind stimulated for the entire year. You won't find any stinkers on this list, so don't worry. We value your time and believe that you should only receive the greatest. Because of this, we've only gathered web design blogs that have recently being updated. Get ready to add numerous subscriptions by creating your Feebly account.`}<br />{`-->`} Responsive...<br />{`-->`} Secure your domain...<br />{`-->`} Testing...<br />{`-->`} Content creation...<br />{`-->`} Visual elements...<br />{`-->`} Launch...</p>
                   </Col>
                   <Col sm={3}>
                     <h3 className="pb-2">Latest trends </h3>
                     <p>{`You should stay current with all the most recent advances in the business whether you operate as a freelance web designer or for an agency or design studio. You may be sure you're constantly providing the most intelligent and original design solutions by doing this.`}</p>
                     <p>{`You can keep up with evolving design trends by reading web design blogs. You'll need to be able to comprehend new trends' causes and how they affect user experience. Additionally, you'll discover upgrades to current tools as well as new ones that have recently hit the market.`}</p>
-                    <div className="visible-wrapper"><Image priority width={330} height={330} src={`${ImagePath}/email/3.jpg`} alt="office" /></div>
+                    <div className="visible-wrapper"><Image priority width={330} height={330} src={`${ImagePath}/email/3.jpg`} alt="office" unoptimized/></div>
                   </Col>
                   <Col sm={3}>
                     <h3 className="pb-2">The best UX designer</h3>
@@ -33,7 +33,7 @@ const BothSideVisibleScrollbar = () => {
                   </Col>
                   <Col sm={3}>
                     <h3 className="pb-2">How to make best website ideas </h3>
-                    <div className="visible-wrapper"><Image priority width={330} height={330} src={`${ImagePath}/banner/3.jpg`} alt="website" /></div>
+                    <div className="visible-wrapper"><Image priority width={330} height={330} src={`${ImagePath}/banner/3.jpg`} alt="website" unoptimized/></div>
                     <p className="pt-3">{`-->`} Blog <br />{`-->`} Portfolio website <br />{`-->`}Event website <br />{`-->`} personal website <br />{`-->`} Fashion website <br />{`-->`} Admin dashboards <br />{`-->`} E-commerce website <br />{`-->`} Beauty website <br />{`-->`} Food website<br />{`-->`} Animation website <br />{`-->`} Financial website</p>
                   </Col>
                 </Row>

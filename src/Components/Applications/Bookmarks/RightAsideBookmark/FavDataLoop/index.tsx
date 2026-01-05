@@ -26,7 +26,7 @@ const FavDataLoop = () => {
                         <Col xxl={3} md={4} className='col-ed-4' key={mybookdata.id}>
                             <Card className='card-with-border bookmark-card o-hidden'>
                                 <div className='details-website'>
-                                    <Image className='img-fluid' src={`${ImagePath}/${mybookdata.image}`} width={266} height={177} alt='' />
+                                    <Image className='img-fluid' src={`${ImagePath}/${mybookdata.image}`} width={266} height={177} alt='' unoptimized/>
                                     <div className={`favourite-icon favourite_0 ${mybookdata.fillStar ? 'favourite' : ''}`}>
                                         <a href={Href}>
                                             <i className='fa fa-star' onClick={() => removeFavourite(mybookdata)} />

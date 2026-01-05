@@ -48,7 +48,7 @@ const RightChatBody = () => {
               const participators = allMembers.find((x: AllMemberType) => x.id === item.sender);
               return (
                 <div className={`msg ${item.sender === currentUser?.id ? "left" : "right"}-msg`} key={id}>
-                  {item?.name ? <div className="msg-img" /> : <Image src={`${ImagePath}/${participators?.image}`} className="rounded-circle img-30 h-auto msg-img" width={33} height={33} alt="user" />}
+                  {item?.name ? <div className="msg-img" /> : <Image src={`${ImagePath}/${participators?.image}`} className="rounded-circle img-30 h-auto msg-img" width={33} height={33} alt="user" unoptimized/>}
                   <div className="msg-bubble">
                     <div className="msg-info">
                       <div className="msg-info-name">{participators?.name}</div>
@@ -60,7 +60,7 @@ const RightChatBody = () => {
               );
             })
           ) : (
-            <Image className="w-100" src={`${ImagePath}/start-conversion.jpg`} width={888} height={592} alt="start conversion" />
+            <Image className="w-100" src={`${ImagePath}/start-conversion.jpg`} width={888} height={592} alt="start conversion" unoptimized/>
           )}
         </div>
         <SendMessage />

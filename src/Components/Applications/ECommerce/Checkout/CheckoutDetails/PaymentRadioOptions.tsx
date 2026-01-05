@@ -18,7 +18,7 @@ const PaymentRadioOptions = () => {
                 <Label className="d-block" htmlFor="edo-ani2">
                     <Input className="radio_animated" id="edo-ani2" type="radio" name="rdo-ani" />
                     {'PayPal'}
-                    <Image width={202} height={70} priority className="img-paypal" src={`${ImagePath}/checkout/paypal.png`} alt="" />
+                    <Image width={202} height={70} priority className="img-paypal" src={`${ImagePath}/checkout/paypal.png`} alt="" unoptimized/>
                 </Label>
             </Col>
         </Row>

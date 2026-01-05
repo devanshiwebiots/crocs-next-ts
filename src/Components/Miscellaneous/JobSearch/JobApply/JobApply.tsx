@@ -14,7 +14,7 @@ const JobApply = () => {
       <div className="job-search">
         <CardBody className="pb-0">
           <div className="d-flex">
-            <Image priority width={40} height={40} className="img-40 img-fluid m-r-20" src={`${ImagePath}/job-search/1.jpg`} alt="" />
+            <Image priority width={40} height={40} className="img-40 img-fluid m-r-20" src={`${ImagePath}/job-search/1.jpg`} alt="" unoptimized/>
             <div className="flex-grow-1">
               <h3 className="f-w-600">
                 <Link href={Href}>{JobUIDesigner}</Link>

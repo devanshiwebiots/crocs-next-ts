@@ -8,7 +8,7 @@ const InvoiceSign = () => {
     <tr
       style={{ width: "100%", display: "flex", justifyContent: "space-between", marginTop: 12 }}>
       <td>
-        <Image src={`${ImagePath}/email-template/invoice-1/sign.png`} alt="sign" height={50} width={100}/>
+        <Image src={`${ImagePath}/email-template/invoice-1/sign.png`} alt="sign" height={50} width={100} unoptimized/>
         <span
           style={{
             display: "block",

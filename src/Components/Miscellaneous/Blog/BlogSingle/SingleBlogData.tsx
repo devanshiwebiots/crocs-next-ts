@@ -7,7 +7,7 @@ export const SingleBlogData = () => {
 
   return (
     <div className="blog-box blog-details">
-      <Image priority width={1600} height={300} className="img-fluid w-100" src={`${ImagePath}/blog/blog-single.jpg`} alt="blog-main" />
+      <Image priority width={1600} height={300} className="img-fluid w-100" src={`${ImagePath}/blog/blog-single.jpg`} alt="blog-main" unoptimized/>
       <div className="blog-details">
         <ul className="blog-social">
           <li>25 July 2024</li>

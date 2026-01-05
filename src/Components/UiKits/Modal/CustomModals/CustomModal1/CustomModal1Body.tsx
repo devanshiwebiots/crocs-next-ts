@@ -15,7 +15,7 @@ const CustomModal1Body: React.FC<CenterdModalBodyProps> = ({ modal, toggle }) =>
                     <CardBody>
                         <div className="social-img-wrap">
                             <div className="social-img">
-                                <Image width={68} height={68} src={`${ImagePath}/dashboard-8/profile.png`} alt="profile" />
+                                <Image width={68} height={68} src={`${ImagePath}/dashboard-8/profile.png`} alt="profile" unoptimized/>
                             </div>
                             <div className="edit-icon">
                                 <SVG iconId='profile-check' />

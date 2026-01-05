@@ -14,7 +14,7 @@ const TwoFactorAuthentication = () => {
                     <div className="authentication-wrapper">
                         <h4>{TwoFactorAuthenticationTitle}</h4>
                         <p>{"Click on the authentication button below and scan the QR code"}</p>
-                        <Image src={`${ImagePath}/forms/qr-scan.png`} width={481} height={420} alt="qr-scan" />
+                        <Image src={`${ImagePath}/forms/qr-scan.png`} width={481} height={420} alt="qr-scan" unoptimized/>
                     </div>
                     <Button color='primary' className="mt-5" onClick={toggle}>{FactorAuthentication}</Button>
                     <FirstModal toggle={toggle} modalOne={modalOne} />

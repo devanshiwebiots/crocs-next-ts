@@ -7,7 +7,7 @@ const TrackOrderPlace = () => {
     <div className="order-place">
       <div className="d-flex">
         <div className="flex-shrink-0">
-          <Image src={`${ImagePath}/dashboard-2/product/headphone.png`} width={42} height={42} alt="product" />
+          <Image src={`${ImagePath}/dashboard-2/product/headphone.png`} width={42} height={42} alt="product" unoptimized/>
         </div>
         <div className="flex-grow-1">
           <Link href={'/app/ecommerce/product'}>

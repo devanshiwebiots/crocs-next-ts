@@ -16,7 +16,7 @@ const CashOnDelivery: React.FC<PaymentFormProps> = ({ payMethod, updateFormData 
                     <p>{"After your order is delivered, make a cash payment"}</p>
                 </div>
                 <div>
-                    <Image src={`${ImagePath}/forms/delivery.png`} width={75} height={50} alt="paypal" />
+                    <Image src={`${ImagePath}/forms/delivery.png`} width={75} height={50} alt="paypal" unoptimized/>
                 </div>
             </div>
         </Col>

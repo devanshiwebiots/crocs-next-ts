@@ -17,7 +17,7 @@ const SmallSizeScrollbar = () => {
                 <h3 className="pb-2">{'Solution for Business Transformation'}</h3>
               </div>
               <p>The Business Transformation Solution programme is a <em className="txt-danger">multi-level engagement program</em> is designed to help Small and Medium-Sized Businesses and Startups create a strong, well-functioning business organization that produces the best results quickly and effectively.
-                <Image priority width={731}  height={485} className="img-fluid pt-3" src={`${ImagePath}/banner/3.jpg`} alt="business"  />
+                <Image priority width={731}  height={485} className="img-fluid pt-3" src={`${ImagePath}/banner/3.jpg`} alt="business"  unoptimized/>
               </p>
               <p>The core of the programme is our internally developed <em className="txt-danger">Business Management model</em>{` , "Business Foundation & Management", which was tried and true for Indian business conditions while drawing inspiration from other successful global SME Business Management techniques.`}</p>
             </ScrollBar>

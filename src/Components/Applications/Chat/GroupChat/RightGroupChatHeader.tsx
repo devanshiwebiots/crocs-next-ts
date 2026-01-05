@@ -11,7 +11,7 @@ const RightGroupChatHeader = () => {
           <ul>
             {groupChatHeader.map((data, i) => (
               <li key={i}>
-                <Image className="img-fluid rounded-circle" src={`${ImagePath}/${data}`} width={32} height={32} alt="user" />
+                <Image className="img-fluid rounded-circle" src={`${ImagePath}/${data}`} width={32} height={32} alt="user" unoptimized/>
               </li>
             ))}
             <li>

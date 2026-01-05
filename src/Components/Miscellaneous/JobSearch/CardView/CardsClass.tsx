@@ -20,7 +20,7 @@ const CardsClass = () => {
               <div className="job-search">
                 <CardBody>
                   <div className="d-flex">
-                    <Image priority width={40} height={40} className="img-40 img-fluid m-r-20" src={`${ImagePath}/job-search/${item.logo}`} alt="job" />
+                    <Image priority width={40} height={40} className="img-40 img-fluid m-r-20" src={`${ImagePath}/job-search/${item.logo}`} alt="job" unoptimized/>
                     <div className="flex-grow-1">
                       <h6 className="f-w-600">
                         <Link href={Href}>{item.job_name}</Link>

@@ -20,7 +20,7 @@ const NewContactList: React.FC<NewContactListProps> = ({ users, userCallback }) 
                             setDynamicTab(index);
                         }}>
                             <div className="d-flex">
-                                <Image className="img-50 img-fluid m-r-20 rounded-circle" width={50} height={50} src={`${ImagePath}/${user.avatar}`} alt="" />
+                                <Image className="img-50 img-fluid m-r-20 rounded-circle" width={50} height={50} src={`${ImagePath}/${user.avatar}`} alt="" unoptimized/>
                                 <div className="flex-grow-1">
                                     <h3>
                                         <span className='first_name_0'>{user.name}</span>

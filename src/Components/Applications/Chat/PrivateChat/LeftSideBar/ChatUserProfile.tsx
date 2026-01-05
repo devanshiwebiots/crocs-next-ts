@@ -30,7 +30,7 @@ const ChatUserProfile = () => {
               <li className={`common-space ${activeChat === item.id ? "active" : ""}`} key={id} onClick={() => changeChatClick(item.id)}>
                 <div className="chat-time">
                   <div className="active-profile">
-                    <Image className="img-fluid rounded-circle" src={`${ImagePath}/${item.image}`} width={42} height={42} alt="user" />
+                    <Image className="img-fluid rounded-circle" src={`${ImagePath}/${item.image}`} width={42} height={42} alt="user" unoptimized/>
                     <div className={`status bg-${item.online}`} />
                   </div>
                   <div>

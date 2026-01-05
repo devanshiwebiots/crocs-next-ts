@@ -11,7 +11,7 @@ const UserFirstProfile = () => {
                 <div className="cardheader" />
                 <div className="user-image">
                     <div className="avatar">
-                        <Image src={`${ImagePath}/user/7.jpg`} width={86} height={86} alt='' />
+                        <Image src={`${ImagePath}/user/7.jpg`} width={86} height={86} alt='' unoptimized/>
                     </div>
                     <div className="icon-wrapper">
                         <i className="icofont icofont-pencil-alt-5" />

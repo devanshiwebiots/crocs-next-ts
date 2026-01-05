@@ -12,7 +12,7 @@ const ProjectCommon: React.FC<ProjectCommonType> = ({ item }) => {
         <Badge color={item.color}>{item.badge}</Badge>
         <h3>{item.title}</h3>
         <div className='d-flex'>
-          <Image className='img-20 me-1 rounded-circle' src={`${ImagePath}/user/${item.image}`} width={20} height={20} alt='images' />
+          <Image className='img-20 me-1 rounded-circle' src={`${ImagePath}/user/${item.image}`} width={20} height={20} alt='images' unoptimized/>
           <div className="flex-grow-1">
             <p className="mb-0">{item.sites}</p>
           </div>

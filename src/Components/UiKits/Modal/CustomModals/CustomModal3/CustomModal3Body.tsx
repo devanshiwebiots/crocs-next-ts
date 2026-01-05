@@ -15,7 +15,7 @@ const CustomModal3Body: React.FC<CenterdModalBodyProps> = ({ modal, toggle }) =>
                     <CardBody>
                         <div className="balance-profile">
                             <div className="balance-img">
-                                <Image width={68} height={68} src={`${ImagePath}/dashboard/profile.png`} alt="user vector" />
+                                <Image width={68} height={68} src={`${ImagePath}/dashboard/profile.png`} alt="user vector" unoptimized/>
                                 <Link href={`/app/users/user_profile`} className='edit-icon'>
                                     <SVG iconId='pencil' />
                                 </Link>

@@ -17,7 +17,7 @@ const OtherModal: React.FC<CenterdModalBodyProps> = ({ modal, toggle }) => {
             <div className='modal-toggle-wrapper'>
                 <ul className="modal-img simple-list">
                     <li>
-                        <Image width={100} height={100} src={`${ImagePath}/gif/logout.gif`} alt="logout" />
+                        <Image width={100} height={100} src={`${ImagePath}/gif/logout.gif`} alt="logout" unoptimized/>
                     </li>
                 </ul>
                 <h4 className="pt-3 text-center">{AlreadyLeaving}</h4>

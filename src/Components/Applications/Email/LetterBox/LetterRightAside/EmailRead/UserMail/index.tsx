@@ -15,7 +15,7 @@ const UserMail: React.FC<MailPropsType> = ({ handlePrint }) => {
             <div className="user-title">
                 <div>
                     <div className="rounded-border">
-                        <Image className="img-fluid" src={`${ImagePath}/user/12.png`} width={38} height={38} alt="user" />
+                        <Image className="img-fluid" src={`${ImagePath}/user/12.png`} width={38} height={38} alt="user" unoptimized/>
                     </div>
                     <div className="dropdown-subtitle">
                         <p>{'Jacob Jones'}</p>

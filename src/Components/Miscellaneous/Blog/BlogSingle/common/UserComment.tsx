@@ -12,7 +12,7 @@ const UserComment: React.FC<UserCommentPropsType> = ({ ImageSrc, userReplay, tex
         <ul className="mx-0">
           <li>
             <div className="d-flex align-self-center">
-              <Image priority width={106} height={106} className="align-self-center" src={`${ImagePath}/blog/${ImageSrc}`} alt="Generic placeholder" />
+              <Image priority width={106} height={106} className="align-self-center" src={`${ImagePath}/blog/${ImageSrc}`} alt="Generic placeholder" unoptimized/>
               <div className="flex-grow-1">
                 <Row>
                   <Col md={4} className="xl-100">

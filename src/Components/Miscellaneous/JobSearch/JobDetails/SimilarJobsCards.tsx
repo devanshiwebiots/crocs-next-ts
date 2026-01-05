@@ -21,7 +21,7 @@ const SimilarJobsCards: React.FC<SimilarJobsCardsType> = ({ limit, jobClass, rib
             <div className="job-search">
               <CardBody>
                 <div className="d-flex">
-                  <Image priority width={40} height={40} className="img-40 img-fluid m-r-20" src={`${ImagePath}/job-search/${item.logo}`} alt="" />
+                  <Image priority width={40} height={40} className="img-40 img-fluid m-r-20" src={`${ImagePath}/job-search/${item.logo}`} alt="" unoptimized/>
                   <div className="flex-grow-1">
                     <h6 className="f-w-600">
                       <Link href="/job_search/job_detail">{item.job_name}</Link>

@@ -13,7 +13,7 @@ const LatestPhotos = () => {
                     <ul className="text-center">
                         {latestPhotosData.map((list, i) => (
                             <li key={i}>
-                                <Image className="img-fluid" alt="" width={70} height={70} src={`${ImagePath}/social-app/post-${list}`} />
+                                <Image className="img-fluid" alt="" width={70} height={70} src={`${ImagePath}/social-app/post-${list}`} unoptimized/>
                             </li>
                         ))}
                     </ul>

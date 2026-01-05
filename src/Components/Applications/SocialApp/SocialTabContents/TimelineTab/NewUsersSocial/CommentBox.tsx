@@ -7,7 +7,7 @@ const CommentBox = () => {
     return (
         <div className="comments-box">
             <div className="d-flex">
-                <Image className="img-50 img-fluid m-r-20 rounded-circle" alt="" src={`${ImagePath}/user/1.jpg`} width={50} height={50} />
+                <Image className="img-50 img-fluid m-r-20 rounded-circle" alt="" src={`${ImagePath}/user/1.jpg`} width={50} height={50} unoptimized/>
                 <div className="flex-grow-1">
                     <InputGroup className="text-box">
                         <Input className="input-txt-bx" type="text" name="message-to-send" placeholder="Post Your commnets" />
