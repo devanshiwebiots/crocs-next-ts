@@ -295,6 +295,13 @@
                     }
                 }
             }
+            .dropdown{
+                .dropdown-menu{
+                    &.show{
+                        z-index: 4;
+                    }
+                }
+            }
         }
     }
     .light-square {
